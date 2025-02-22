@@ -22,10 +22,10 @@
 //                     | ALT  |LOWER | LGUI  |  SPACE |  | BSPC  | ENTER| RAISE | RGUI  |
             display-name = "Base";
             bindings = <
-&kp ESC          &mt LS(N1) N1  &mt LS(N2) N2  &mt LS(N3) N3  &mt LS(N4) N4  &mt LS(N5) N5                                      &mt LS(N6) N6  &mt LS(N7) N7  &mt LS(N8) N8       &mt LS(N9) N9   &mt LS(N0) N0     &mt LS(GRAVE) GRAVE
-&mt LS(TAB) TAB  &mt LS(Q) Q    &mt LS(W) W    &mt LS(R) R    &mt LS(W) W    &mt LS(B) B                                        &mt LS(J) J    &mt LS(F) F    &mt LS(U) U         &mt LS(P) P     &mt LS(SEMI) SEMI &mt LS(MINUS) MINUS
-&kp LCTRL        &mt LS(A) A    &mt LS(S) S    &mt LS(H) H    &mt LS(T) T    &mt LS(G) G                                        &mt LS(Y) Y    &mt LS(N) N    &mt LS(E) E         &mt LS(O) O     &mt LS(I) I       &mt LS(SQT) SQT
-&kp LSHFT        &mt LS(Z) Z    &mt LS(X) X    &mt LS(M) M    &mt LS(C) C    &mt LS(V) V  &mt LS(LGKT) LBKT   &mt LS(RBKT) RBKT &mt LS(K) K    &mt LS(L) L    &mt LS(COMMA) COMMA &mt LS(DOT) DOT &mt LS(FSLH) FSLH &kp RSHFT
+&kp ESC   &kp N1  &kp N2 &kp N3   &kp N4   &kp N5                     &kp N6 &kp N7   &kp N8    &kp N9  &kp N0   &kp GRAVE
+&kp TAB   &kp Q   &kp D  &kp R    &kp W    &kp B                      &kp J  &kp F    &kp U     &kp P   &kp SEMI    &kp MINUS
+&kp LCTRL &kp A   &kp S  &kp H    &kp T    &kp G                      &kp Y  &kp N    &kp E     &kp O   &kp I &kp SQT
+&kp LSHFT &kp Z   &kp X  &kp M    &kp C    &kp V  &kp LBKT   &kp RBKT &kp K  &kp L    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
                        &kp LALT &mo 1  &kp LGUI &kp SPACE  &kp BSPC &kp RET  &mo 2  &kp RGUI
             >;
 
