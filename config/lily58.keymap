@@ -36,9 +36,9 @@
             display-name = "Base";
             bindings = <
 &kp ESC   &kp N1  &kp N2 &kp N3   &kp N4   &kp N5                     &kp N6 &kp N7   &kp N8    &kp N9  &kp N0   &kp GRAVE
-&kp TAB   &kp Q   &kp D  &kp R    &kp W    &kp B                      &kp J  &kp F    &kp U     &kp P   &kp SEMI    &kp MINUS
-&kp LCTRL &AS(A)   &kp S  &kp H    &kp T    &kp G                      &kp Y  &kp N    &kp E     &kp O   &kp I &kp SQT
-&kp LSHFT &kp Z   &kp X  &kp M    &kp C    &kp V  &kp LBKT   &kp RBKT &kp K  &kp L    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+&kp TAB   AS(Q)   AS(D) AS(R) AS(W) AS(B)                      &kp J  &kp F    &kp U     &kp P   &kp SEMI    &kp MINUS
+&kp LCTRL AS(A)   AS(S) AS(H) AS(T) AS(G)                      &kp Y  &kp N    &kp E     &kp O   &kp I &kp SQT
+&kp LSHFT AS(Z)   AS(X) AS(M) AS(C) AS(V)   &kp LBKT   &kp RBKT &kp K  &kp L    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
                        &kp LALT &mo 1  &kp LGUI &kp SPACE  &kp BSPC &kp RET  &mo 2  &kp RGUI
             >;
 
