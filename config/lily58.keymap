@@ -22,10 +22,10 @@
 //                     | ALT  |LOWER | LGUI  |  SPACE |  | BSPC  | ENTER| RAISE | RGUI  |
             display-name = "Base";
             bindings = <
-&kp ESC             &ht_tp LS(N1) N1  &ht_tp LS(N2) N2  &ht_tp LS(N3) N3  &ht_tp LS(N4) N4  &ht_tp LS(N5) N5                                            &ht_tp LS(N6) N6  &ht_tp LS(N7) N7  &ht_tp LS(N8) N8       &ht_tp LS(N9) N9   &ht_tp LS(N0) N0     &ht_tp LS(GRAVE) GRAVE
-&ht_tp LS(TAB) TAB  &ht_tp LS(Q) Q    &ht_tp LS(W) W    &ht_tp LS(R) R    &ht_tp LS(W) W    &ht_tp LS(B) B                                              &ht_tp LS(J) J    &ht_tp LS(F) F    &ht_tp LS(U) U         &ht_tp LS(P) P     &ht_tp LS(SEMI) SEMI &ht_tp LS(MINUS) MINUS
-&kp LCTRL           &ht_tp LS(A) A    &ht_tp LS(S) S    &ht_tp LS(H) H    &ht_tp LS(T) T    &ht_tp LS(G) G                                              &ht_tp LS(Y) Y    &ht_tp LS(N) N    &ht_tp LS(E) E         &ht_tp LS(O) O     &ht_tp LS(I) I       &ht_tp LS(SQT) SQT
-&kp LSHFT           &ht_tp LS(Z) Z    &ht_tp LS(X) X    &ht_tp LS(M) M    &ht_tp LS(C) C    &ht_tp LS(V) V  &ht_tp LS(LBKT) LBKT   &ht_tp LS(RBKT) RBKT &ht_tp LS(K) K    &ht_tp LS(L) L    &ht_tp LS(COMMA) COMMA &ht_tp LS(DOT) DOT &ht_tp LS(FSLH) FSLH &kp RSHFT
+&kp ESC          &mt LS(N1) N1  &mt LS(N2) N2  &mt LS(N3) N3  &mt LS(N4) N4  &mt LS(N5) N5                                      &mt LS(N6) N6  &mt LS(N7) N7  &mt LS(N8) N8       &mt LS(N9) N9   &mt LS(N0) N0     &mt LS(GRAVE) GRAVE
+&mt LS(TAB) TAB  &mt LS(Q) Q    &mt LS(W) W    &mt LS(R) R    &mt LS(W) W    &mt LS(B) B                                        &mt LS(J) J    &mt LS(F) F    &mt LS(U) U         &mt LS(P) P     &mt LS(SEMI) SEMI &mt LS(MINUS) MINUS
+&kp LCTRL        &mt LS(A) A    &mt LS(S) S    &mt LS(H) H    &mt LS(T) T    &mt LS(G) G                                        &mt LS(Y) Y    &mt LS(N) N    &mt LS(E) E         &mt LS(O) O     &mt LS(I) I       &mt LS(SQT) SQT
+&kp LSHFT        &mt LS(Z) Z    &mt LS(X) X    &mt LS(M) M    &mt LS(C) C    &mt LS(V) V  &mt LS(LBKT) LBKT   &mt LS(RBKT) RBKT &mt LS(K) K    &mt LS(L) L    &mt LS(COMMA) COMMA &mt LS(DOT) DOT &mt LS(FSLH) FSLH &kp RSHFT
                        &kp LALT &mo 1  &kp LGUI &kp SPACE  &kp BSPC &kp RET  &mo 2  &kp RGUI
             >;
 
