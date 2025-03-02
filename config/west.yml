@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: gpeye                             # added
-      url-base: https://github.com/GPeye      # added
+    # - name: gpeye                             # added
+    #   url-base: https://github.com/GPeye      # added
 
   projects:
     - name: zmk
@@ -11,8 +11,8 @@ manifest:
       revision: main
       import: app/west.yml
 
-    - name: nice-view-mod                 # added
-      remote: gpeye                       # added
-      revision: main                      # added
+    # - name: nice-view-mod                 # added
+    #   remote: gpeye                       # added
+    #   revision: main                      # added
   self:
     path: config
