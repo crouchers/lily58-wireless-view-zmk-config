@@ -12,7 +12,7 @@ manifest:
       import: app/west.yml
 
     - name: nice-view-mod                 # added
-      remote: gpeye                       # added
+      remote: crouchers                   # added
       revision: main                      # added
   self:
     path: config
