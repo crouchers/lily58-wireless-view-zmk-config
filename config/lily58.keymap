@@ -9,13 +9,17 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-/ {
-    // soft off hold
-    &soft_off {
-        hold-time-ms = <3000>;
-    };
+
+
+// soft off hold
+&soft_off {
+    hold-time-ms = <3000>;
+};
     
 
+
+
+/ {
     keymap {
         compatible = "zmk,keymap";
 
