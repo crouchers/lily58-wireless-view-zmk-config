@@ -16,17 +16,7 @@
     hold-time-ms = <3000>;
 };
     
-
-
-
 / {
-
-    soft_off_wakers {
-        compatible = "zmk,soft-off-wakeup-sources";
-        wakeup-sources = <&wakeup_scan>;
-    };
-
-
     keymap {
         compatible = "zmk,keymap";
 
