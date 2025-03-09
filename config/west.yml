@@ -1,11 +1,14 @@
 manifest:
   remotes:
-    - name: crouchers
-      url-base: https://github.com/crouchers
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: crouchers
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: nice-view-gem # new entry
+      remote: m165437     # new entry
+      revision: main      # new entry
   self:
     path: config

@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: crouchers
+      url-base: https://github.com/crouchers
+  projects:
+    - name: zmk
+      remote: crouchers
+      revision: main
+      import: app/west.yml
+  self:
+    path: config
