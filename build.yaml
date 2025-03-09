@@ -14,9 +14,9 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: lily58_left nice_view_adapter  zmk-nice-oled
+    shield: lily58_left nice_view_adapter  zmk-nice-elemental
   - board: nice_nano_v2
-    shield: lily58_right nice_view_adapter zmk-nice-oled #custom shield# added custom above
+    shield: lily58_right nice_view_adapter zmk-nice-elemental #custom shield# added custom above
 
 
 
